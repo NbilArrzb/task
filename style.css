@@ -1,0 +1,91 @@
+.imeg-nav {
+    width: 90px;
+}
+
+.hero {
+    width: 430px;
+    padding: 10px;
+}
+
+.jumbotron {
+    margin-top: 30px;
+}
+
+.head-judul {
+    /* margin-bottom: 20px; */
+}
+
+.price {
+    color: green;
+    margin-bottom: 30px;
+}
+
+.detail {
+    /* margin-bottom: -3px; */
+}
+
+.det2 {
+    /* margin-bottom: 40px; */
+}
+
+
+.btn {
+    width: 170px;
+    height: 50px;
+}
+
+#button {
+    margin-left: 20px;
+}
+
+#tombol {
+    width: 85px;
+    height: 40px;
+}
+
+.check {
+    padding-top: 6px;
+}
+
+.form-control1 {
+    width: 50px;
+}
+
+#btn {
+    width: 100px;
+    height: 40px;
+}
+
+.footer {
+    margin-top: 90px;
+}
+
+/* Responsive */
+@media (min-width: 768px) and (max-width: 994px) {
+    .hero {
+        width: 320px;
+    }
+    .price {
+        margin-bottom: 5px;
+        font-size: 24px;
+    }
+    .head-judul {
+        font-size: 28px;
+    }
+    .btn {
+        width: 120px;
+        height: 37px;
+    }
+    .check {
+        padding: 0;
+    }
+    .stok {
+        margin-bottom: 5px;
+    }
+    .jumbotron {
+        margin-top: -2px;
+    }
+    .nav-link {
+        float: right;
+    }
+}

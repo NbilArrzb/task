@@ -1,0 +1,236 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+
+
+/* Navbar */
+.navbar {
+    transition: 0.4s;
+}
+
+.nav-brand {
+    width: 100px;
+}
+
+.navbar-nav {
+    margin-top: 10px;
+}
+
+.nav-item {
+    margin-right: 25px;
+}
+
+.hoper:hover {
+    color: blue;
+    text-shadow: blue 2px 2px 30px;
+}
+/* Close Navbar */
+
+/* Icon */
+.button:hover {
+    background-color: lightblue;
+}
+
+/* Hero */
+.hero {
+    margin-top: 160px;
+}
+
+.pemanis {
+float: right;
+margin-bottom: -60px;
+}
+
+.pemanis2 {
+    margin-top: -80px;
+    margin-left: -50px;
+}
+
+/* Close Hero */
+
+/* Icon */
+#icon {
+    margin-top: 180px;    
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    background-color: #F0F0F0;
+    border: none;
+    border-radius: 40px;
+}
+
+.icon {
+    width: 40px;
+    float: left;
+    border: white solid 2px;
+    margin-top: 6px;
+}
+
+.text-icon {
+    margin-top: 10px;
+    font-size: 18px;
+}
+/* Close Icon */
+
+/* Hero 2 */
+.hero2 {
+    margin-top: 110px;
+}
+
+.induk-banner {
+    /* width: 330px; */
+    /* height: 360px; */
+    position: absolute,relative;
+    margin-left: -260px;
+    
+}
+
+.svg1 {
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.svg2 {
+    margin-bottom: 250px;
+    margin-right: -97px;
+}
+
+.kepala-hero2 {
+    color: black;
+}
+/* Close Hero 2 */
+
+/* Card */
+
+.mata-uang {
+   
+}
+
+.card {
+        box-shadow: 1px 1px 10px;
+        
+}
+
+.harga {
+    color: green;
+}
+
+.cek {
+    width: 100px;
+}
+/* Close Card */
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 767px) {
+    .jumbotron{
+        text-align: center;
+    }
+    .banner{
+        display: none;
+    }
+    .text-icon{
+        display: none;
+    }
+    .button {
+        width: 52px;
+    }
+    .banner2{
+        display: none;
+    }
+    .jumbotron2 {
+        text-align: center;
+    }
+    .card {
+        width: 285px;
+        margin-left: 45px;
+    }
+    .nav-link {
+        float: right;
+    }
+    .icon {
+        margin: 0;
+    }
+    .hero {
+        margin-top: 105px;
+    }
+    #icon {
+        margin-top: 110px;
+    }
+    .pem1 {
+        width: 50px;
+    }
+    .pem2 {
+        width: 65px;
+    }
+    .tentang {
+        margin-right: 50px;
+    }
+    .pemanis3 {
+        width: 50px;
+    }
+    .pemanis4 {
+        width: 65px;
+    }
+    .pem3 {
+        width: 50px;
+    }
+    .pem4 {
+        width: 65px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nav-link {
+        float: right;
+    }
+    .head-banner {
+        width: 355px;
+    }
+    .head-h1 {
+        font-size: 24px;
+    }
+    .p-hero-1 {
+        font-size: 11px;
+    }
+    .pemanis {
+        width: 75px;
+        margin-right: -35px;
+        margin-top: -33px;
+    }
+    .pemanis2 {
+        width: 95px;
+        margin-top: -60px;
+    }
+    .button {
+        width: 125px;
+    }
+    .text-icon {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .tentang {
+        margin-right: 60px;
+    }
+    .banner2 {
+        display: none;
+    }
+    .jumbotron2 {
+        text-align: center;
+        width: 600px;
+        margin-left: -290px;
+    }
+    .pemanis3 {
+        margin-bottom: -50px;
+    }
+    .pemanis4 {
+        margin-top: -28px;
+    }
+    .copyright {
+        margin-left: 50px;
+    }
+
+}

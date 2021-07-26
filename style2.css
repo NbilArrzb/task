@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(to right, blue, lightblue);
+}
+form {
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    border: lightblue solid 2px;
+    
+}
+.container {
+    margin-left: 405px;
+    margin-top:15%;
+}
+.padd {
+    padding: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    form {
+        width: 330px;
+        margin-left: 165px;
+    }
+    .container {
+        margin-left: 60px;
+    }
+}
